@@ -25,7 +25,6 @@ body{
 
 }
 header{
-	width: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +37,11 @@ header image{
 	margin-left: auto;
 	margin-right: auto;
 	top: 40px;
-	
+}
+header .logo{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .user{
