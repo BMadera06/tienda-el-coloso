@@ -41,7 +41,9 @@ include '../Librerias/php/conexions.php';
 
 			 $q = "SELECT * FROM `venta` WHERE fecha BETWEEN '".$date."' AND '".$date1."'";
 			$result = mysqli_query($conexion,$q);
-			while($mostrar = mysqli_fetch_array($result))
+			if ($result != FALSE)
+			{
+				while($mostrar = mysqli_fetch_array($result))
 			{
 			 echo'
 			 <tr>
@@ -51,6 +53,8 @@ include '../Librerias/php/conexions.php';
 			 </tr>
 			 ';
 		    }
+			}
+			
 		    ?>
 		</table>
 		<br>
