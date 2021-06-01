@@ -31,13 +31,10 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 50px;
-}
-header > .logo{
-	position: relative;
 }
 
 .user{
