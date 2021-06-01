@@ -31,6 +31,10 @@ header{
 	justify-content: center;
 	align-items: center;
 	background-color: violet;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
 }
 header > .logo{
 	position: relative;
