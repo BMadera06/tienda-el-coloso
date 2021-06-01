@@ -43,7 +43,7 @@ include '../Librerias/php/conexions.php';
 			 <tr>
 			 	<td> '.$mostrar['Id_venta'].'</td>
 			 	<td> '.$mostrar['fecha'].'</td>
-			 	<td> '.$mostrar['total2'].'</td>
+			 	<td> '.$mostrar['total2']/10.'</td>
 			 </tr>
 			 ';
 		    }
