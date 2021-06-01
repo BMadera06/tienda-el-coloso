@@ -30,6 +30,7 @@ header{
 	align-items: center;
 	position: relative;
 	margin-top: 50px;
+	background-color: red;
 }
 header image{
 	position: absolute;
