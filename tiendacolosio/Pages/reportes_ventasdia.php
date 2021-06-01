@@ -39,7 +39,7 @@ include '../Librerias/php/conexions.php';
 
 		    $date1 = date("Ymd")+1;
 
-			 $q = "SELECT * FROM `venta` WHERE fecha BETWEEN '".$date."' AND '".$date1."'";
+			 $q = "SELECT * FROM `venta2` WHERE fecha BETWEEN '".$date."' AND '".$date1."'";
 			$result = mysqli_query($conexion,$q);
 			while($mostrar = mysqli_fetch_array($result))
 			{
@@ -47,7 +47,7 @@ include '../Librerias/php/conexions.php';
 			 <tr>
 			 	<td> '.$mostrar['Id_venta'].'</td>
 			 	<td> '.$mostrar['fecha'].'</td>
-			 	<td> '.$mostrar['total'].'</td>
+			 	<td> '.$mostrar['total2'].'</td>
 			 </tr>
 			 ';
 		    }
