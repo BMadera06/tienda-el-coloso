@@ -20,8 +20,10 @@ else
 </head>
 <body>
 	<header>
-		
+		<div>
 		<img class="logo" src="Images/Logo.png">
+		</div>
+		
 		
 	</header>
 		
