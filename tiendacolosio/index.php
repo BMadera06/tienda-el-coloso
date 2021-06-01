@@ -19,6 +19,8 @@ else
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
+	<br>
+	<p></p>
 	<header>
 		
 		<img class="logo" src="Images/Logo.png">
