@@ -26,15 +26,14 @@ body{
 }
 header{
 	width: 100vh;
-	height: 350px;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: violet;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 50px;
+	margin-bottom: 50px;
 }
 header > .logo{
 	position: relative;
