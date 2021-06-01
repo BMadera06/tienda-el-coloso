@@ -31,6 +31,10 @@ header{
 	justify-content: center;
 	align-items: center;
 }
+header > div > img{
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .user{
 	height: 40px;
