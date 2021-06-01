@@ -28,7 +28,7 @@ if(!isset($usuario)){
 		<button class="myButton" onclick="location.href='reportes_empleados.php'">Reporte de empleados</button>
 		<button class="myButton" onclick="location.href='reportes_productos.php'">Reporte de productos</button>
 		<button class="myButton" onclick="location.href='reportes_ventas.php'">Ventas totales</button>
-		<button class="myButton" onclick="location.href='reportes_productos_vendidos.php'">Productos vendidos</button>
+		<button style="display: none;" class="myButton" onclick="location.href='reportes_productos_vendidos.php'">Productos vendidos</button>
 		<button class="myButton" onclick="location.href='reportes_ventasdia.php'">Ventas por dia</button>
 	</div>
 </body>
