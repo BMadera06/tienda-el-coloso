@@ -175,7 +175,7 @@ width: 160px;
 }
 .manu_tabla{
 	position: relative;
-	background-color: red;
+	background-color: black;
 	border: 1;
 }
 
@@ -214,7 +214,7 @@ width: 160px;
 .proveedores{
 	width: 600px;
 	height: 300px;
-	background-color: red;
+	background-color: black;
 }
 .cuadro3{
 	width: 250px;
