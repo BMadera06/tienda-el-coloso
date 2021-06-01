@@ -20,7 +20,7 @@ include("../Librerias/php/conexion.php");
 	{
 		$total += $precio[$i]*$can[$i];
 	}
-	$sql = "INSERT INTO `venta` (`Id_venta`, `fecha`, `total`) VALUES (NULL,'".$tiempo."','".$total."')";
+	$sql = "INSERT INTO `venta2` (`Id_venta`, `fecha`, `total`) VALUES (NULL,'".$tiempo."','".$total."')";
 	mysqli_query($con,$sql);
 	 $q = "SELECT * FROM `venta`";
 	$result = mysqli_query($con,$q);

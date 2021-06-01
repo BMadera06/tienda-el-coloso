@@ -35,7 +35,7 @@ include '../Librerias/php/conexions.php';
 				</tr>
 			</thead>
 			<?php 
-		     $q = "SELECT * FROM `venta`";
+		     $q = "SELECT * FROM `venta2`";
 			$result = mysqli_query($conexion,$q);
 			while($mostrar = mysqli_fetch_array($result))
 			{
